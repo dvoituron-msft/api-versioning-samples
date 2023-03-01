@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33312.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiVersioning", "WebApiVersioning\WebApiVersioning.csproj", "{828E94BF-F881-4CFE-BBCF-E3712B52BAE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD5ED018-3A5D-4057-824E-25AC924D4905}"
+	ProjectSection(SolutionItems) = preProject
+		RestClient\FirstSample.http = RestClient\FirstSample.http
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{828E94BF-F881-4CFE-BBCF-E3712B52BAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828E94BF-F881-4CFE-BBCF-E3712B52BAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828E94BF-F881-4CFE-BBCF-E3712B52BAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828E94BF-F881-4CFE-BBCF-E3712B52BAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72A1622F-CC59-40EB-B468-ABF9EC86E8A9}
+	EndGlobalSection
+EndGlobal

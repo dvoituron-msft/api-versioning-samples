@@ -1,0 +1,32 @@
+# Open this file using VSCode/VS REST Client extension
+# VSCode: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+# VS2022: https://marketplace.visualstudio.com/items?itemName=MadsKristensen.RestClient
+
+# ********** Versioning Samples **********
+
+### Last version: 4.0
+GET https://localhost:7237/api/helloworld
+
+### Set the version using QueryString
+GET https://localhost:7237/api/helloworld?api-version=1.0
+
+### Set the version using MediaType
+GET https://localhost:7237/api/helloworld
+Accept: application/json;ver=2.0
+
+### Set the version using Header
+GET https://localhost:7237/api/helloworld
+x-ms-api-version: 3.0
+
+### Set an INVALID version using Header
+GET https://localhost:7237/api/helloworld
+x-ms-api-version: 9.0
+
+### UNKNOWN version
+PUT https://localhost:7237/api/helloworld?api-version=1.0
+
+### Get specific method using version 2.0
+PUT https://localhost:7237/api/helloworld?api-version=2.0
+
+### Get specific method using version 3.0
+PUT https://localhost:7237/api/helloworld?api-version=3.0
