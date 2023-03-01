@@ -7,7 +7,7 @@ Versioning is a common requirement for APIs. This sample demonstrates how to use
 
 ## Demo
 
-[![Watch the video](doc/ApiVersioning-Creation.png)](https://github.com/dvoituron-msft/api-versioning-samples/blob/main/doc/ApiVersioning-Creation.mp4?raw=true)
+https://user-images.githubusercontent.com/105595161/222117730-582846f4-ca3e-4389-bddc-a3bddaeef6ca.mp4
 
 ## References
 
