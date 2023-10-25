@@ -2,6 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 // --------------------------------------------------------------
 
+using Asp.Versioning;
 using WebApiVersioning;
 using WebApiVersioning.Helpers.Versioning;
 
@@ -13,6 +14,7 @@ builder.Services.AddControllers();
 // *** Versioning
 builder.Services.AddApiVersioningCustomized(options =>
 {
+    // options.ApiVersionSelector = new ConstantApiVersionSelector(new ApiVersion(Convert.ToDouble(ApiVersions.V2_0)));
     options.AssemblyDocumentationFile = Path.Combine(AppContext.BaseDirectory, typeof(Program).Assembly.GetName().Name + ".xml");
     options.Title = "WorkOrder APIs";
     options.Description = "List of WorkOrder APIs";

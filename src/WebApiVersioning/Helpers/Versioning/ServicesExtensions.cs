@@ -33,7 +33,7 @@ public static class ServicesExtensions
 
                 // Last available version is assumed when a client does does not provide an API version.
                 options.AssumeDefaultVersionWhenUnspecified = true;
-                options.ApiVersionSelector = new CurrentImplementationApiVersionSelector(options);
+                options.ApiVersionSelector = config.ApiVersionSelector ?? new CurrentImplementationApiVersionSelector(options);
 
                 // Report the API version compatibility information in responses.
                 // HTTP headers "api-supported-versions" and "api-deprecated-versions" will be added to all valid service routes

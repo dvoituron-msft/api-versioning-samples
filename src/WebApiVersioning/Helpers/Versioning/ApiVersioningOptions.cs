@@ -7,6 +7,11 @@ namespace WebApiVersioning.Helpers.Versioning;
 public class ApiVersioningOptions
 {
     /// <summary>
+    /// Defines the behavior of an API version selector.
+    /// </summary>
+    public Asp.Versioning.IApiVersionSelector? ApiVersionSelector { get; set; } = null;
+
+    /// <summary>
     /// The XML Documentation File to generate documentation for WebAPI.
     /// Ex. `Path.Combine(AppContext.BaseDirectory, typeof(Program).Assembly.GetName().Name + ".xml")`
     /// </summary>
